@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PYRAMIDS WORKERS</title>
+        <meta name="view port" content="width=device-width,initial-scale=1.0">   
+        <link rel="icon" href="./logo.png"/>  
+        <link rel="stylesheet" href="Customers.css">
+       <!--<script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+      ></script>  -->
+    </head>
+    <body>
+        <div class="background"></div>
+        <div class="background"></div>
+        <script src="Customers.js"></script>
+        <!--Navbar content-->
+        <div class="navbar">  
+        
+            
+        </label>
+        <img class="navbar-logo" src="logo.png" alt="Logo" id="logo">        
+           <ul>
+                    <li><a href="index.html"> Home</a></li>   
+                    <li><a href="Customers.html"> Customers</a></li>
+                    <li><a href="Workers.html"> Workers</a></li>
+                    <li><a href="#"> Countries</a></li>
+            
+                </ul>
+                <div class="form-container">
+                    <form  action="Customers.html" method="post">
+                        <form id="Customers-form">
+                            <h2>Customer Application Form</h2>
+                            <div class="form-row">
+                                <div class="form-group">
+                                  <label for="company-name ">Company Name:</label>
+                                  <input type="text" id="company-name" name="company-name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                  <label for="person-name">Father Name:</label>
+                                  <input type="text" id="person-name" name="person-name" required>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="form-group">
+                                  <label for="phone-number">Phone Number:</label>
+                                  <input type="text" id="phone-number" name="phone-number" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                  <label for="email">Email:</label>
+                                  <input type="email" id="email" name="email" required>
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="form-group">
+                                  <select id="countryselect" name="Countries" onchange="changeBackground()" required>
+                                    <option value="" disabled selected hidden>Select Your Country:</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="italy">Italy</option>
+                                    <option value="Croatia">Croatia</option>
+                                    <option value="Germnay">Germnay</option>
+                                    <!--add more country option here-->
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Conditinos">I Accept All Conditions</label>
+                                    <input type="checkbox" id="Conditinos" name="Conditinos" required>
+                                  </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                      <label for="how-know">How do you know about us?</label>
+                                      <input type="text" id="how-know" name="how-know" required class="flex-input">
+                                    </div>
+                                  </div>
+
+                                <button type="button" id="submit-btn" onclick="submitForm()">Submit</button>
+                                <div id="output"></div>
+
+                    </form>
+
+                    <!--<div class="bottomright">Contact Us
+                      <div class="social-media">
+                         <a href="#" class="social-icon">
+                           <i class="fab fa-facebook-f"></i>
+                         </a>
+                         <a href="#" class="social-icon">
+                           <i class="fab fa-twitter"></i>
+                         </a>
+                         <a href="#" class="social-icon">
+                           <i class="fab fa-google"></i>
+                         </a>
+                         <a href="#" class="social-icon">
+                           <i class="fab fa-linkedin-in"></i>
+                         </a>
+                       </div>
+                    </div>-->
+    </body>
+
+
+</html>

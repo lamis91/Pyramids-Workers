@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+    <meta charset="UTF-8">
+    <title>PYRAMIDS WORKERS</title>
+    <link rel="stylesheet" href="style2.css">
+    <meta name="view port" content="width=device-width,initial-scale=1.0">   
+    <link rel="icon" href="./logo.png"/>  
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>    
+     <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+     <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<!--<script>
+  $(document).ready(function(){
+   $('#date').datepicker({dateFormat:'dd-mm-yy'});
+   $('#date').datepicker('show');
+  });
+</script>-->
+<body>
+  <script src="Workers.js"></script>
+  <div class="background"></div>
+  
+    
+
+ </select>
+   <!--Navbar content-->
+   <div class="navbar">  
+        
+            
+   </label>
+   <img class="navbar-logo" src="logo.png" alt="Logo" id="logo">        
+      <ul>
+               <li><a href="index.html"> Home</a></li>   
+               <li><a href="Customers.html"> Customers</a></li>
+               <li><a href="Workers.html"> Workers</a></li>
+               <li><a href="#"> Countries</a></li>
+       
+           </ul>
+        <!--<label class="label">Contact Us</label>-->
+       </div>
+        
+       <div class="form-container">
+        <form class="formm"  action="Workers.html" method="post">
+           <!-- <h2>Worker Application Form</h2>  -->
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="worker-name">Worker Name:</label>
+              <input type="text" id="worker-name" name="worker-name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="father-name">Father Name:</label>
+              <input type="text" id="father-name" name="father-name" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="mother-name">Mother Name:</label>
+              <input type="text" id="mother-name" name="mother-name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="date-of-birth">Date Of Birth:</label>
+              <input type="date" id="date-of-birth" name="date-of-birth" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="job">Job:</label>
+              <input type="text" id="job" name="job" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="passport-number">Passport Number:</label>
+              <input type="text" id="passport-number" name="passport-number" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="expire-date">Passport Expire Date:</label>
+              <input type="date" id="expire-date" name="expire-date" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="release-date">Passport Release Date:</label>
+              <input type="date" id="release-date" name="release-date" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="photo-upload">Upload Passport Photo:</label>
+              <input type="file" id="photo-upload" name="photo-upload" accept="image/*" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="Criminal-Record">Upload Criminal Record</label>
+              <input type="file" id="Criminal-Record" name="Criminal-Record" accept=".pdf,.doc,.docx" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="experience-upload">Upload Experience Certificate:</label>
+              <input type="file" id="experience-upload" name="experience-upload" accept=".pdf,.doc,.docx" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="Criminal-Record">Upload Criminal Record</label>
+              <input type="file" id="Criminal-Record" name="Criminal-Record" accept=".pdf,.doc,.docx" required>
+            </div>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <select id="country-select" name="Countries" onchange="changeBackground()" required>
+                <option value="" disabled selected hidden>Select Country To Go:</option>
+                <option value="Egypt">Egypt</option>
+                <option value="italy">Italy</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Germnay">Germnay</option>
+                <!--add more country option here-->
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="how-know">How do you know about us?</label>
+                <input type="text" id="how-know" name="how-know" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="Conditinos">I Accept All Conditions</label>
+              <input type="checkbox" id="Conditinos" name="Conditinos" required>
+            </div>
+          </div>
+          
+          <button type="button" id="submit-btn" onclick="submitForm()">Submit</button>
+          <div id="output"   ></div>
+        </form>
+        
+      </div>
+      <!--<div class="bottomright">Contact Us
+        <div class="social-media">
+           <a href="#" class="social-icon">
+             <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="#" class="social-icon">
+             <i class="fab fa-twitter"></i>
+           </a>
+           <a href="#" class="social-icon">
+             <i class="fab fa-google"></i>
+           </a>
+           <a href="#" class="social-icon">
+             <i class="fab fa-linkedin-in"></i>
+           </a>
+         </div>-->
+      </div>
+ 
+  
+</body>
+</html>
+
+
+
+
